@@ -1,0 +1,50 @@
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta http-equiv="refresh" content="1;https://mail.google.com">
+  <title lang="en-us">Loading Gmail...</title>
+  <link rel="stylesheet" href="OneUI/oui.min.css">
+  <link rel="stylesheet" href="materialize.css">
+  <link rel="icon" href="images/MYL.ico">
+  <style>
+    @font-face {
+      font-family: 'SamsungOne 400';
+      src: local('SamsungOne 400'), url('SamsungOne-400.woff') format('woff');
+    }
+
+    * {
+      font-family: 'SamsungOne 400';
+      font-size: larger;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="materialize.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.fixed-action-btn').openFAB();
+      $('.fixed-action-btn').closeFAB();
+      $('.fixed-action-btn.toolbar').openToolbar();
+      $('.fixed-action-btn.toolbar').closeToolbar();
+      $('.tooltipped').tooltip({
+        delay: 50
+      });
+    })
+  </script>
+</head>
+
+<body oncontextmenu="return false;">
+  <main>
+    <div class="oui-viewing center-align">
+      <h5 class="black-text">Loading Gmail...</h5>
+    </div>
+    <div class="oui-interaction center-align">
+      <!--Interaction area-->
+      <h1 class="hide"></h1>
+    </div>
+    <br>
+  </main>
+</body>
+
+</html>
